@@ -1,0 +1,15 @@
+main:
+  arch: x86
+
+memory:
+  name: start-end
+  name2: start-end
+
+registers:
+  x0: 0x0
+  x1: 0x1
+
+debug:
+  - tracing: true
+  - regs: true
+  - coverage: true
