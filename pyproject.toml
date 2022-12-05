@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "uemu"
+version = "0.1.0"
+description = "Wrapper for unicorn python emulations"
+authors = ["XaderX"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyYAML = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+unicorn = "^2.0.1.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
